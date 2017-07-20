@@ -48,10 +48,6 @@ h1, h2, a  {
 	color: #4aaaa5;
 }
 
-img {
-	
-}
-
 #aboutMeHeader, #contactHeader, #portfolioHeader {
 	border-bottom: solid #777777;
 	padding-bottom: 20px;
@@ -80,6 +76,7 @@ img {
 	height: 60px;
 	width: 966px;
 	margin: auto;
+    padding-top: 30px;
 
 }
 
@@ -114,6 +111,103 @@ img {
 
 .connectWithMeLinks {
 	text-align: center;
+}
+
+.gamesPic {
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	position: relative;
+	z-index: -1;
+}
+
+#gameTag {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	height:20px;
+	margin: 0 auto;
+	margin-top: 80px;
+	position: absolute;
+	text-align: center; 
+	width: 150px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#hangman, #triviaGame, #rockPaperScissors {
+	float: left;
+	position:relative;
+	z-index: 2;
+	width: 150px;
+	height: 120px;
+	margin-left: 25px;
+	margin-bottom: 20px;
+} 
+
+#rpgGame, #rutgersInfo {
+	float: right;
+	position:relative;
+	z-index: 2;
+	width: 150px;
+	height: 120px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+#hangman {
+	background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#triviaGame {
+	background-image: url("http://lorempixel.com/output/animals-q-c-640-480-7.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#rockPaperScissors {
+	background-image: url("http://lorempixel.com/output/animals-q-c-640-480-6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#rpgGame {
+	background-image: url("http://lorempixel.com/output/nature-q-c-640-480-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#rutgersInfo {
+	background-image: url("http://lorempixel.com/output/cats-q-c-640-480-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#games {
+overflow: auto;
+margin: 0 auto;
+}
+
+.textBox {
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+	height: 150px;
+	width:100%;
 }
 
 
