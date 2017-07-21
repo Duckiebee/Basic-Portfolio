@@ -100,7 +100,7 @@ h1, h2, a  {
 }
 
 .background {
-	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/upfeathers.png");
+	background-image: url("../images/featherBackground.png");
 	width: 960px;
 	border: solid #666666;
 	border-bottom: solid #4aaaa5;
@@ -155,35 +155,35 @@ h1, h2, a  {
 }
 
 #hangman {
-	background-image: url("http://lorempixel.com/output/abstract-q-c-640-480-3.jpg");
+	background-image: url("../images/abstract.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #triviaGame {
-	background-image: url("http://lorempixel.com/output/animals-q-c-640-480-7.jpg");
+	background-image: url("../images/CAT2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #rockPaperScissors {
-	background-image: url("http://lorempixel.com/output/animals-q-c-640-480-6.jpg");
+	background-image: url("../images/Pig.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #rpgGame {
-	background-image: url("http://lorempixel.com/output/nature-q-c-640-480-1.jpg");
+	background-image: url("../images/ants.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #rutgersInfo {
-	background-image: url("http://lorempixel.com/output/cats-q-c-640-480-3.jpg");
+	background-image: url("../images/cats-q-c-640-480-3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -208,6 +208,14 @@ input[type=text] {
 textarea {
 	height: 150px;
 	width:100%;
+}
+
+.linkImage {
+    position: relative;
+    float: left;
+    width:  50px;
+    height: 50px;
+    margin-left: 10px;
 }
 
 
